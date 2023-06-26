@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 24px;
+    color: #FF6060;
+    margin-left: 40px;
+
+    /* Ajouter une bordure inférieure au survol */
+    &:hover {
+    border-bottom: 2px solid;
+    }
+
+    /* Ajouter une bordure inférieure à l'élément actif */
+    &.active {
+    border-bottom: 2px solid #FF6060;
+    }
+}
