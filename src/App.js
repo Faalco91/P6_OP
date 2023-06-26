@@ -5,13 +5,15 @@ import Apropos from './components/Apropos/Apropos'
 import Menu from './components/Menu/Menu'
 
 function App() {
+  return (
   <div className='App'>
+    <Menu />          
     <Routes>
-        <Menu />          
         <Route path="/" element={<Home />} />
         <Route path="/Apropos" element={<Apropos />} />
     </Routes>
   </div>
+  )
 }
 
 export default App 

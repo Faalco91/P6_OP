@@ -3,7 +3,7 @@ import '../Home/Home.scss'
 
 function Home(){
     return (
-        <h1 className='accueil'> </h1>
+        <h1 className='accueil'> Bonjour </h1>
     )
 }
 
