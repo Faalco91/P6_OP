@@ -1,9 +1,9 @@
 import React from 'react'
 
 function Apropos(){
- return (
-    <h1> Vous retrouverez ici tout nos infos ! </h1>
- )
+    return (
+        <h1>À propos de nous</h1>
+    )
 }
 
 export default Apropos
