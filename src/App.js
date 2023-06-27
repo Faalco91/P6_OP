@@ -3,7 +3,9 @@ import {Routes, Route} from "react-router-dom"
 import Home from './components/Home/Home'
 import Apropos from './components/Apropos/Apropos'
 import Banner from './components/Banner/Banner'
+import Card from './components/Card/Card'
 import Footer from './components/Footer/Footer'
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Apropos" element={<Apropos />} />
     </Routes>
+    <Card />
     <Footer />
   </div>
   )
