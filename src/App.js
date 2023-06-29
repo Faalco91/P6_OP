@@ -1,9 +1,9 @@
 import './App.css'
 import {Routes, Route} from "react-router-dom"
-import Home from './components/Home/Home'
-import Apropos from './components/Apropos/Apropos'
+import Home from './pages/Apropos/Apropos'
+import Apropos from './pages/Apropos/Apropos'
 import Banner from './components/Banner/Banner'
-import Card from './components/Card/Card'
+import HeaderCard from './components/HeaderCard/HeaderCard'
 import Footer from './components/Footer/Footer'
 
 
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Apropos" element={<Apropos />} />
     </Routes>
-    <Card />
+    <HeaderCard />
     <Footer />
   </div>
   )
