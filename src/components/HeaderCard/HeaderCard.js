@@ -2,7 +2,7 @@ import React from 'react'
 import '../HeaderCard/HeaderCard.scss'
 import IMG from "../sets/IMG.png"
 
-function HeaderCard() {
+function HeaderCard(){
     return (
         <div className='card'>
             <div className='img-container'>
