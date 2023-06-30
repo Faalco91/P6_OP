@@ -15,6 +15,10 @@
         height: 340px;
         margin: 40px 30px 0px 30px;
         position: relative;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 
     .card-title{
