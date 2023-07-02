@@ -1,6 +1,6 @@
 import React from 'react'
 import '../HeaderCard/HeaderCard.scss'
-import IMG from "../sets/IMG.png"
+import IMG from "../sets/ImgTopCard_1.png"
 
 function HeaderCard(){
     return (

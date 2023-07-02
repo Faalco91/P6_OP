@@ -1,10 +1,8 @@
 import './App.css'
-import {Routes, Route} from "react-router-dom"
-import Home from './pages/Apropos/Apropos'
-import Apropos from './pages/Apropos/Apropos'
+import { Routes, Route} from "react-router-dom"
+import Home from './pages/Home/Home'
+import About from './pages/About/About'
 import Banner from './components/Banner/Banner'
-import HeaderCard from './components/HeaderCard/HeaderCard'
-import Card from './components/Card/Card'
 import Footer from './components/Footer/Footer'
 
 
@@ -14,10 +12,9 @@ function App() {
     <Banner />          
     <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Apropos" element={<Apropos />} />
+        <Route exact path="/about" element={<About />} />
     </Routes>
-    <HeaderCard />
-    <Card />
+
     <Footer />
   </div>
   )
