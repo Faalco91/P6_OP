@@ -7,7 +7,7 @@ import Card from '../../components/Card/Card'
 function Home() {
     return(
     <div>
-    <HeaderCard />
+    <HeaderCard context="home"/>
     <Card />
     </div>
     )

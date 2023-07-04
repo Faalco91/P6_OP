@@ -22,7 +22,7 @@ function Header() {
         </svg>
         <nav className='menu'>
             <Link className={`menu-content ${activeMenuItem === 'Accueil' ? 'active' : ''}`} to={"/"} onClick={() => menuItemClick('Accueil') }>Accueil</Link>
-            <Link className={`menu-content ${activeMenuItem === 'A Propos' ? 'active' : ''}`} to={"/Apropos"} onClick={() => menuItemClick('A Propos') }>A Propos</Link>
+            <Link className={`menu-content ${activeMenuItem === 'A Propos' ? 'active' : ''}`} to={"/about-us"} onClick={() => menuItemClick('A Propos') }>A Propos</Link>
         </nav>
     </div>    
     )
