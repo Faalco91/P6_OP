@@ -1,11 +1,13 @@
 import HeaderCard from '../../components/HeaderCard/HeaderCard'
 import Collapse from '../../components/Collapse/Collapse'
+import ImgForAbout from "../../components/sets/ImgTopCard_2.png"
+
 import './About.scss'
 
 function About() {
     return(
             <div className='main'>
-            <HeaderCard context="about" />
+            <HeaderCard image={ImgForAbout} />
             <div className='about'>
 
             <div className='about-content'>

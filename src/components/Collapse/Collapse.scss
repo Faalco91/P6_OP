@@ -40,13 +40,13 @@
 }
 
 .collapse_arrow-down{
-    transform: scaleY(-1);
+    transform: rotate(180deg);
 
 }
 
 
 .collapse_children {
-    padding: 10px 0px 10px 15px;
+    padding: 10px 15px 10px 15px;
     font-weight: 300;
     color: #FF6060;
     background-color: #f6f6f6;
