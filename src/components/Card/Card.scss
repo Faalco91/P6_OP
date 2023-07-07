@@ -39,6 +39,10 @@
         height: 340px;
         object-fit: cover;
         border-radius: 10px;
+
+        @media(max-width: 375px){
+            height: 255px;
+        }
     }
 
 }
