@@ -8,7 +8,7 @@ import ImgForHome from '../../components/sets/ImgTopCard_1.png'
 function Home() {
     const showOverlayText = true;
     return(
-    <div>
+    <div className='main'>
     <HeaderCard image={ImgForHome} showOverlayText={showOverlayText} />
     <Card />
     </div>

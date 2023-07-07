@@ -42,3 +42,30 @@
     }
 
 }
+
+
+@media(max-width: 375px){
+    .card{
+        .card-element{
+            height: 255px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .card{
+        background-color: white;
+        margin: 0px 30px 50px 30px;
+        padding: 0;
+
+        .card-element{
+            margin: 40px 0px 0px 0px;
+            width: 100%;
+        }
+        .card-img{
+            width: 100%;
+        }
+
+    }
+}
+

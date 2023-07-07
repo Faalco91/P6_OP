@@ -6,14 +6,32 @@
     padding: 40px 90px 60px 90px;
 }
 
+@media(max-width: 768px){
+    .header{
+        padding: 40px 30px 60px 30px;
+
+    }
+}
+
 #logo-kasa-banner{
     cursor: pointer;
 }
 
+
+
 .menu{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    align-items: center;
+
+    .menu-list{
+        display: flex;
+        padding: 0;
+        margin: 0;
+        gap: 30px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
 .menu-content {
@@ -24,8 +42,7 @@
     font-weight: 400;
     line-height: 20px;
     color: #FF6060;
-    margin-left: 40px;
-    margin-bottom: 15px;
+
 
     /* Ajouter une bordure inférieure au survol */
     &:hover {
@@ -35,5 +52,16 @@
     /* Ajouter une bordure inférieure à l'élément actif */
     &.active {
     border-bottom: 1px solid #FF6060;
+    }
+}
+
+@media(max-width: 768px){
+    #logo-kasa-banner svg{
+        width: 145px;
+        height: 47px;
+    }
+    .menu-content{
+        font-size: 12px;
+        text-transform: uppercase;
     }
 }
