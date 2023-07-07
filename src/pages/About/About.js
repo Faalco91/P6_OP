@@ -7,8 +7,7 @@ import './About.scss'
 function About() {
     return(
         <div>
-            <HeaderCard image={ImgForAbout} />
-            <div className='main'>
+            <HeaderCard image={ImgForAbout} />            
                 <div className='about'>
                     <div className='about-content'>
                         <Collapse title="Fiabilité">      
@@ -33,7 +32,6 @@ function About() {
                         </Collapse>
                     </div>
                 </div>
-            </div>
         </div>
     )
 }

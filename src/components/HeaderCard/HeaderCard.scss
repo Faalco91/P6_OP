@@ -4,9 +4,9 @@
     padding-bottom: 0px;
     margin-bottom: 40px;
 
-    @media(max-width: 768px) {
-        margin: 20px 30px;
-        height: 111px;
+    @media(max-width: 375px) {
+        margin: 20px 30px 0px 30px;
+        height: 223px;
     }
 
     &::before {
@@ -29,8 +29,8 @@
     object-fit: cover;
     overflow: hidden;
 
-    @media(max-width: 768px){
-        height: 111px;
+    @media(max-width: 375px){
+        height: 220px;
     }
     
     }
@@ -45,14 +45,15 @@
     margin: 0px;
 }
 
-@media(max-width: 768px){
+@media(max-width: 375px){
     .overlay-text{
         left: 40%;
         font-size: 24px;
     }
 
-@media(max-width: 428px) {
+@media(max-width: 375px) {
     .overlay-text{
+        top: 50%;
         width: 217px;
     }
 }
