@@ -1,6 +1,6 @@
 export const logementsDatas = [
 	{
-		"id": "c67ab8a7",
+		"id": "1",
 		"title": "Appartement cosy",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"des photos": [
@@ -12,7 +12,7 @@ export const logementsDatas = [
 		],
 		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentez chez vous dans notre appartement.",
 		"héberger": {
-			"nom": "Nathalie Jean",
+			"name": "Nathalie Jean",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		"note": "5",
@@ -24,13 +24,13 @@ export const logementsDatas = [
 			"Frigo",
 			"WIFI"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Batignolle",
 			"Montmartre"
 		]
 	},
 	{
-		"id": "b9123946",
+		"id": "2",
 		"title": "Magnifique appartement proche Canal Saint Martin",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
 		"des photos": [
@@ -56,14 +56,14 @@ export const logementsDatas = [
 			"Cuisine équipée",
 			"Télévision"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Canal Saint-Martin",
 			"République",
 			"Appartement"
 		]
 	},
 	{
-		"id": "46d188c5",
+		"id": "3",
 		"title": "Studio de charme - Buttes Chaumont",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
 		"des photos": [
@@ -74,7 +74,7 @@ export const logementsDatas = [
 		],
 		"description": "À seulement deux pas des Buttes Chaumont, venez découvrir Paris dans ce studio tout équipé. Entièrement équipé pour votre confort et élégamment décoré, il vous permettra de vivre comme un Parisien le temps de votre séjour.",
 		"héberger": {
-			"nom": "Franck Maher",
+			"name": "Franck Maher",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
 		"note": "3",
@@ -85,14 +85,14 @@ export const logementsDatas = [
 			"Télévision",
 			"Sèche Cheveux"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Buttes Chaumont",
 			"Laumière",
 			"Studio"
 		]
 	},
 	{
-		"id": "7af00cd6",
+		"id": "4",
 		"title": "Nid douillet au coeur du 11ème",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
 		"des photos": [
@@ -115,7 +115,7 @@ export const logementsDatas = [
 			"Climatisation",
 			"Télévision"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Parmentier",
 			"Marais",
 			"Parc",
@@ -123,7 +123,7 @@ export const logementsDatas = [
 		]
 	},
 	{
-		"id": "0979876d",
+		"id": "5",
 		"title": "Appartement de Standing - 10e",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
 		"des photos": [
@@ -136,7 +136,7 @@ export const logementsDatas = [
 		],
 		"description": "Ce loft entièrement rénové, et équipé de meubles de luxe saura vous séduire. Idéalement situé dans le 10ème arrondissement, vous déplacerez dans Paris sera un véritable jeu d'enfant.",
 		"héberger": {
-			"nom": "Franck Maher",
+			"name": "Franck Maher",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
 		"note": "5",
@@ -148,13 +148,13 @@ export const logementsDatas = [
 			"Chambre Séparée",
 			"Parking"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Goncourt",
 			"Proches commerces"
 		]
 	},
 	{
-		"id": "f72a452f",
+		"id": "6",
 		"title": "Atelier d'artiste",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
 		"des photos": [
@@ -175,14 +175,14 @@ export const logementsDatas = [
 			"Chambre Séparée",
 			"Parking"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Montmartre",
 			"Culture",
 			"Charme"
 		]
 	},
 	{
-		"id": "b4c67936",
+		"id": "7",
 		"title": "Pas cher - Studio 18ème",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
 		"des photos": [
@@ -193,7 +193,7 @@ export const logementsDatas = [
 		],
 		"description": "Ce Studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accéderez très rapidement à tous les points touristiques de Paris.",
 		"héberger": {
-			"nom": "Hugo Perrier",
+			"name": "Hugo Perrier",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
 		},
 		"note": "3",
@@ -206,14 +206,14 @@ export const logementsDatas = [
 			"Bureau",
 			"Parking"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Les transports",
 			"Bon marché",
 			"18eme"
 		]
 	},
 	{
-		"id": "bc6f7112",
+		"id": "8",
 		"title": "Superbe appartement proche Tour Eiffel",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-1.jpg",
 		"des photos": [
@@ -239,7 +239,7 @@ export const logementsDatas = [
 			"Lit King Size",
 			"Ascenseur"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Luxe",
 			"Tour Eiffel",
 			"T3",
@@ -247,7 +247,7 @@ export const logementsDatas = [
 		]
 	},
 	{
-		"id": "cb2f9222",
+		"id": "9",
 		"title": "Suite familiale",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-1.jpg",
 		"des photos": [
@@ -259,7 +259,7 @@ export const logementsDatas = [
 		],
 		"description": "Paris vous tend les bras ! En famille ou entre amis, venez découvrir la ville de l'amour dans un appartement de goût. Vous pourrez profiter de tous les commerces seulement à quelques minutes de l'appartement. Sa proximité avec la gare Montparnasse en fait également un choix idéal pour celles et ceux qui doivent prendre un train.",
 		"héberger": {
-			"nom": "Adrien Chiran",
+			"name": "Adrien Chiran",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		"note": "4",
@@ -271,14 +271,14 @@ export const logementsDatas = [
 			"Wifi",
 			"Parking"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Montparnasse",
 			"Commerces",
 			"Famille"
 		]
 	},
 	{
-		"id": "d60ca600",
+		"id": "10",
 		"title": "Appartement moderne sur parc",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-1.jpg",
 		"des photos": [
@@ -289,7 +289,7 @@ export const logementsDatas = [
 		],
 		"description": "Respirer en plein coeur de Paris ? C'est possible ! Avec vue sur un parc résidentiel, vous pourrez ouvrir les fenêtres sans avoir à souffrir du bruit des voitures et de la pollution. Au contraire, vous pourrez écouter les oiseaux . Notre appartement est également idéalement situé au coeur du 11ème arrondissement. Proche des lignes 3 et 2, vous pourrez découvrir Paris sans effort !",
 		"héberger": {
-			"nom": "Adrien Chiran",
+			"name": "Adrien Chiran",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		"note": "3",
@@ -302,7 +302,7 @@ export const logementsDatas = [
 			"Wifi",
 			"Ascenseur"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Père Lachaise",
 			"11e",
 			"Métro 3",
@@ -310,7 +310,7 @@ export const logementsDatas = [
 		]
 	},
 	{
-		"id": "2cf259e1",
+		"id": "11",
 		"title": "Charmant Studio Marais",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-1.jpg",
 		"des photos": [
@@ -321,7 +321,7 @@ export const logementsDatas = [
 		],
 		"description": "Situé en plein coeur du Marais, notre studio est idéal pour les touristes en quête de découverte. Sa cuisine équipée est particulièrement pratique.",
 		"héberger": {
-			"nom": "Victor Moran",
+			"name": "Victor Moran",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-7.jpg"
 		},
 		"note": "4",
@@ -332,14 +332,14 @@ export const logementsDatas = [
 			"Sèche Cheveux",
 			"Wifi"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Marais",
 			"Studio",
 			"Parc"
 		]
 	},
 	{
-		"id": "5323c29b",
+		"id": "12",
 		"title": "Studio fonctionnel République",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
 		"des photos": [
@@ -350,7 +350,7 @@ export const logementsDatas = [
 		],
 		"description": "Idéalement situé à 2 pas de la place de la République, ce studio particulièrement fonctionnel est parfait pour découvrir Paris. Proche de tous les points d'intérêts grâce aux 5 lignes de métro qui sont à 5 minutes, vous pourrez rentabiliser votre temps passé à la capitale.",
 		"héberger": {
-			"nom": "Sarah Devit",
+			"name": "Sarah Devit",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
 		},
 		"note": "3",
@@ -363,7 +363,7 @@ export const logementsDatas = [
 			"LA TÉLÉ",
 			"Bouiloire"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Marais",
 			"République",
 			"Studio",
@@ -372,7 +372,7 @@ export const logementsDatas = [
 		]
 	},
 	{
-		"id": "af6d2d48",
+		"id": "13",
 		"title": "Bungalow dans la forêt",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-1.jpg",
 		"des photos": [
@@ -384,7 +384,7 @@ export const logementsDatas = [
 		],
 		"description": "Quittez Paris pour vous mettre au vert. À seulement 30 minutes de la Gare du Nord, venez découvrir la forêt d'Ecouen directement depuis la fenêtre de votre bungalow. Entièrement équipé, ce logement saura vous accueillir dans le confort, tout en vous permettant de vous contenir sur l'essentiel. Le matin, ouvrez les fenêtres, et profitez du chant des oiseaux.",
 		"héberger": {
-			"nom": "Sarah Devit",
+			"name": "Sarah Devit",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
 		},
 		"note": "5",
@@ -396,14 +396,14 @@ export const logementsDatas = [
 			"Frigo",
 			"Bouiloire"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Forêt",
 			"Nature",
 			"Musée d'Ecouen"
 		]
 	},
 	{
-		"id": "7cbb378e",
+		"id": "14",
 		"title": "Grande Maison proche banlieue",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-2.jpg",
 		"des photos": [
@@ -430,14 +430,14 @@ export const logementsDatas = [
 			"Cintrés",
 			"Équipements de base"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Forêt",
 			"Nature",
 			"Grande maison"
 		]
 	},
 	{
-		"id": "ba55a0cc",
+		"id": "15",
 		"title": "Maison T5 - Le Vésinet",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-1.jpg",
 		"des photos": [
@@ -466,14 +466,14 @@ export const logementsDatas = [
 			"Micro-Ondes",
 			"Parking"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Nature",
 			"Groupe",
 			"Maisons"
 		]
 	},
 	{
-		"id": "1e181317",
+		"id": "16",
 		"title": "Loft de Luxe à la Défense",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
 		"des photos": [
@@ -485,7 +485,7 @@ export const logementsDatas = [
 		],
 		"description": "Si vous êtes à la recherche de l'endroit idéal pour poser vos valises entre deux rdvs d'affaire, ne cherchez plus. Notre loft est l'endroit idéal. En plein coeur de la Défense, il dispose également de tous les équipements pour que vous soyez comme chez vous.",
 		"héberger": {
-			"nom": "Julie Donatella",
+			"name": "Julie Donatella",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
 		},
 		"note": "3",
@@ -499,14 +499,14 @@ export const logementsDatas = [
 			"Micro-Ondes",
 			"Parking"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"La Défense",
 			"Grenier",
 			"Luxe"
 		]
 	},
 	{
-		"id": "1e180563",
+		"id": "17",
 		"title": "Charmant apt aux portes de Paris",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
 		"des photos": [
@@ -518,7 +518,7 @@ export const logementsDatas = [
 		],
 		"description": "Ce charmant appartement offre des prestations de luxe, aux portes de Paris. À deux pas de la ligne 3, vous pourrez accéder à toutes les attractions touristiques dont vous avez toujours rêvées.",
 		"héberger": {
-			"nom": "Julie Donatella",
+			"name": "Julie Donatella",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
 		},
 		"note": "4",
@@ -531,13 +531,13 @@ export const logementsDatas = [
 			"Wifi",
 			"Micro-Ondes"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Vue Parc",
 			"Apt de Charme"
 		]
 	},
 	{
-		"id": "2139a317",
+		"id": "18",
 		"title": "Pas cher - Chambre Paris 20",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-17-1.jpg",
 		"des photos": [
@@ -545,7 +545,7 @@ export const logementsDatas = [
 		],
 		"description": "Cette chambre dispose de toutes les facilités nécessaires. Proche métro et commerces.",
 		"héberger": {
-			"nom": "Hugo Perrier",
+			"name": "Hugo Perrier",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
 		},
 		"note": "2",
@@ -555,13 +555,13 @@ export const logementsDatas = [
 			"Wifi",
 			"Micro-Ondes"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Vue Parc",
 			"Métros"
 		]
 	},
 	{
-		"id": "6ff132c6",
+		"id": "19",
 		"title": "Charmant studio",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-1.jpg",
 		"des photos": [
@@ -571,7 +571,7 @@ export const logementsDatas = [
 		],
 		"description": "Ce studio décoré avec goût sera votre nid douillet après une longue journée passée à découvrir Paris.",
 		"héberger": {
-			"nom": "Michel Romy",
+			"name": "Michel Romy",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-11.jpg"
 		},
 		"note": "4",
@@ -583,14 +583,14 @@ export const logementsDatas = [
 			"Wifi",
 			"Micro-Ondes"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Studio",
 			"Charmant",
 			"13e"
 		]
 	},
 	{
-		"id": "cb02d69b",
+		"id": "20",
 		"title": "Magnifique appartement Rivoli",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-19-1.jpg",
 		"des photos": [
@@ -598,7 +598,7 @@ export const logementsDatas = [
 		],
 		"description": "Au coeur du quartier historique du Marais, cet appartement est idéal pour un couple à la découverte de Paris. Situé sur la rue de Rivoli, il est à 5 minutes du Louvre.",
 		"héberger": {
-			"nom": "Nathalie Jean",
+			"name": "Nathalie Jean",
 			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		"note": "4",
@@ -610,7 +610,7 @@ export const logementsDatas = [
 			"Frigo",
 			"Baigneoire"
 		],
-		"Mots clés": [
+		"motsclés": [
 			"Persienne",
 			"Marais",
 			" Rivoli "
