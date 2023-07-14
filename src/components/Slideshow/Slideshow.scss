@@ -1,0 +1,88 @@
+
+
+.images-caroussel {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    max-width: 100%;
+
+    .slide {
+        max-width: 100%;
+        width: 100%;
+        height: 255px;
+        border-radius: 25px;
+        object-fit: cover;
+    }
+
+    @media(max-width: 375px){
+        margin: 0px;
+    }
+
+}
+
+
+
+.slide-hidden {
+    display: none;
+}
+
+.arrow {
+    background-image: url('../sets/vector.png');
+    background-size: cover;
+    background-position: 50%;
+    //-webkit-mask-image: url('#{$vectorImg}');
+    //mask-image: url('#{$vectorImg}');
+    border: none;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 37%;
+    @media(max-width: 375px){
+        width: 15px;
+        height: 15px;
+        top: 35%;
+    }
+    color: white;
+    filter: drop-shadow(0px 0px 10px black);
+
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+.left {
+    left: 8%;
+    @media(max-width: 375px){
+        left: 10%;
+    }
+}
+.right {
+    transform: rotate(180deg);
+    right: 8%;
+    @media(max-width: 375px){
+        right: 10%;
+    }
+}
+
+.indicators {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 1rem;
+}
+
+.indicator {
+    background-color: white;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px #555;
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+.indicator-inactive {
+    background-color: grey;
+}

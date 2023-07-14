@@ -3,6 +3,7 @@ import { Navigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import { logementsDatas } from '../../datas/data';
 import Collapse from '../../components/Collapse/Collapse';
+import Slideshow from '../../components/Slideshow/Slideshow';
 
 function Logements() {
     //useParams retourne un objet contenant les valeurs de id à partir des paramètres de l'URL.
@@ -31,11 +32,10 @@ function Logements() {
         <div className='main'>
             {filteredData.map((log, index) => (
                 <div className='logements' id={log.id} key={index}>
-                    <img className='logements-cover' src={log.cover} alt={`Cover ${index}`} />
+                    <Slideshow datas={logementsDatas} imgInitial={logementsDatas[0].cover} />
                     <div className='logements-main'>
                         <div className='logements-container'>
                             <div className='logements-presentation-1'>
-
                             <div className='logements-presentation-place'>
                                 <h1>{log.title}</h1>
                                 <p>{log.location}</p>
