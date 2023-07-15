@@ -32,7 +32,7 @@ function Logements() {
         <div className='main'>
             {filteredData.map((log, index) => (
                 <div className='logements' id={log.id} key={index}>
-                    <Slideshow datas={logementsDatas} imgInitial={logementsDatas[0].cover} />
+                    <Slideshow datas={log.photos} />
                     <div className='logements-main'>
                         <div className='logements-container'>
                             <div className='logements-presentation-1'>

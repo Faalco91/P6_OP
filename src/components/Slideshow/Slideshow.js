@@ -1,40 +1,42 @@
-import React, { useState, useEffect } from 'react';
-import { useLocation, Link } from 'react-router-dom'
+import React, { useState, useRef, useEffect } from "react";
+//On utilise useRef pour créer une référence carouselContainerRef lié à la div .caroussel-container
+//On utilise également useEffect pour récupérer la largeur de la div une fois que le composant est dans le DOM et la stocker dans l'état carouselWidth.
 import '../Slideshow/Slideshow.scss'
 
-const Slideshow = ({datas}) => {
-
-    const [currentSlide, setCurrentSlide] = useState(0);
-    const location = useLocation();
-    const currentId = location.pathname.split('/').pop();
-
+function Slideshow({datas}){
+    console.log(datas);
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const carouselContainerRef = useRef(null);
+    const [carouselWidth, setCarouselWidth] = useState(0);
+  
     useEffect(() => {
-        setCurrentSlide(datas.findIndex(log => log.id === currentId));
-      }, [currentId, datas]);
+      //Permet de récuperer la largeur de la div
+      const carouselContainerWidth = carouselContainerRef.current.offsetWidth;
+      //On met à jour l'etat de carouselWidth et l'affecte ensuite (plus bas) à arrows afin qu'elle ne dépasse pas caroussel-container
+      setCarouselWidth(carouselContainerWidth);
+    }, []);
 
-      const nextId = datas[(currentSlide + 1) % datas.length].id;
-      const previousId = datas[(currentSlide - 1 + datas.length) % datas.length].id;
+    const previous = () => {
+        setCurrentIndex((prevIndex) => (prevIndex === 0 ? datas.length - 1 : prevIndex - 1));
+      };
     
-    
+    const next = () => {
+        setCurrentIndex((prevIndex) => (prevIndex === datas.length - 1 ? 0 : prevIndex + 1));
+    };
 
     return(
-        <div className='images-caroussel'>
-            <Link to={`/Logements/${previousId}`}> <span className='arrow left' /> </Link>
-            {datas.map((log, index) => {
-                const slideClasses = `slide ${index === currentSlide ? 'active' : 'slide-hidden'}`;
-                return (
-                    <img src={log.cover} alt={log.id} key={index} className={slideClasses}/>
-                );
-            })}
-            <span className='indicators'>
-            {datas.map((_, index) => {
-            const indicatorClasses = `indicator ${index === currentSlide ? '' : 'indicator-inactive'}`;
-            return <button key={index} onClick={() => setCurrentSlide(index)} className={indicatorClasses}></button>
-            })}
-            </span>
-            <Link to={`/Logements/${nextId}`}> <span className='arrow right'/> </Link>
+        <div className="caroussel-container" ref={carouselContainerRef}>
+            <div className="arrows" style={{ width: `${carouselWidth}px` }}>
+                <div className="arrow-container" onClick={previous}><span className='arrow left'></span></div>
+                <div className="arrow-container" onClick={next}><span className='arrow right'></span></div>
+            </div>
+            {datas.map((log, index) => (
+                <img className={`imgs-caroussel ${index === currentIndex ? "active" : "not-active"}`} src={log} alt={`log ${index}`} key={index}/>
+            ))}
+
         </div>
     )
-};
+
+}
 
 export default Slideshow;
