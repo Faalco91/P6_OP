@@ -29,6 +29,16 @@ function Slideshow({datas}){
         setCurrentIndex((prevIndex) => (prevIndex === datas.length - 1 ? 0 : prevIndex + 1));
     };
 
+    if (datas.length === 1) {
+        return (
+          <div className="caroussel-container" ref={carouselContainerRef}>
+            {datas.map((log, index) => (
+              <img className={`imgs-caroussel ${index === currentIndex ? "active" : "not-active"}`} src={log} alt={`log ${index}`} key={index}/>
+            ))}
+          </div>
+        );
+      }
+
     return(
         <div className="caroussel-container" ref={carouselContainerRef}>
             <div className="arrows" style={{ width: `${carouselWidth}px` }}>
