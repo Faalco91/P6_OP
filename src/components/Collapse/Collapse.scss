@@ -10,7 +10,7 @@
     transition: max-height 0.8s, margin-bottom 0.3s;   
     
     .logements-presentation-3 & {
-        width: 582px;
+        width: 48%;
         height: 52px;
         
         @media(max-width: 375px){
@@ -144,4 +144,10 @@
 }
 #presentation-list {
     margin-bottom: 5px;
+}
+
+.etoiles-elements {
+    color: gray;
+   .active {
+    }
 }

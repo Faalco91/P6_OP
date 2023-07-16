@@ -8,12 +8,17 @@ function Slideshow({datas}){
     const [currentIndex, setCurrentIndex] = useState(0);
     const carouselContainerRef = useRef(null);
     const [carouselWidth, setCarouselWidth] = useState(0);
+   // const [carouselHeight, setCarouselHeight] = useState(0);
+
   
     useEffect(() => {
       //Permet de récuperer la largeur de la div
       const carouselContainerWidth = carouselContainerRef.current.offsetWidth;
+      //const carouselContainerHeight = carouselContainerRef.current.offsetHeight;
+
       //On met à jour l'etat de carouselWidth et l'affecte ensuite (plus bas) à arrows afin qu'elle ne dépasse pas caroussel-container
       setCarouselWidth(carouselContainerWidth);
+     // setCarouselHeight(carouselContainerHeight)
     }, []);
 
     const previous = () => {
@@ -28,6 +33,7 @@ function Slideshow({datas}){
         <div className="caroussel-container" ref={carouselContainerRef}>
             <div className="arrows" style={{ width: `${carouselWidth}px` }}>
                 <div className="arrow-container" onClick={previous}><span className='arrow left'></span></div>
+                <div className=""><span className="counter"> {currentIndex + 1} / {datas.length} </span></div>
                 <div className="arrow-container" onClick={next}><span className='arrow right'></span></div>
             </div>
             {datas.map((log, index) => (
