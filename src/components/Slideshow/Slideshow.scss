@@ -11,8 +11,7 @@
         width: 100%;
         border-radius: 10px;
 
-        @media(max-width: 375px){
-            width: 335px;
+        @media(max-width: 480px){
             height: 255px;
         }
     }
@@ -34,7 +33,7 @@
     overflow: hidden;
     height: 415px;
 
-    @media(max-width: 375px){
+    @media(max-width: 480px){
         height: 255px;
     }
     .counter {
@@ -46,7 +45,7 @@
         color: rgb(255, 255, 255);
         height: 400px;
     
-        @media(max-width: 375px){
+        @media(max-width: 480px){
             height: 240px;
             font-size: 14px;        }
     }
@@ -57,7 +56,7 @@
         width: 10%;
         height: 100%;
 
-        @media(max-width: 375px){
+        @media(max-width: 480px){
             height: 255px;
         }
     
@@ -74,7 +73,7 @@
     width: 46px;
     height: 79px;
     position: absolute;
-    @media(max-width: 375px){
+    @media(max-width: 480px){
         top: 35%;
         width: 24px;
         height: 24px;
@@ -88,7 +87,7 @@
 }
 .left {
     left: 2%;
-    @media(max-width: 375px){
+    @media(max-width: 480px){
         top: 45%;
         left: 2%;
     }
@@ -96,7 +95,7 @@
 .right {
     transform: rotate(180deg);
     right: 2%;
-    @media(max-width: 375px){
+    @media(max-width: 480px){
         top: 45%;
         right: 2%;
     }
@@ -115,7 +114,7 @@
         object-fit: cover;
     }
 
-    @media(max-width: 375px){
+    @media(max-width: 480px){
         margin: 0px;
         height: 255px;
     }
