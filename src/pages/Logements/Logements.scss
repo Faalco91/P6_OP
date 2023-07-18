@@ -114,7 +114,7 @@
     margin-bottom: 30px;
     overflow: hidden;
 
-    @media(max-width:375px){
+    @media(max-width: 480px){
         flex-direction: column;
         gap: 25px;
     }
@@ -130,7 +130,7 @@
     size: 24px;
     padding-left: 10px;
 
-    @media(max-width:375px){
+    @media(max-width: 480px){
         .etoiles-elements {
         width: 18px;
         height: 18px;
@@ -174,7 +174,7 @@
             border-radius: 10px;
             margin-bottom: 5px;
             
-            @media(max-width:375px){
+            @media(max-width: 480px){
                 font-size: 10px;
             }
         }
