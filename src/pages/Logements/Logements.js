@@ -1,13 +1,16 @@
 import '../Logements/Logements.scss';
+//Navigate est utilisé pour effectuer une navigation conditionnelle
+//c'est-à-dire pour rediriger l'utilisateur vers une autre page/route en fonction d'une condition donnée.
 import { Navigate } from 'react-router-dom';
+//permet de récupérer les paramètres de l'URL dans un composant React.
 import { useParams } from 'react-router-dom';
 import { logementsDatas } from '../../datas/data';
 import Collapse from '../../components/Collapse/Collapse';
 import Slideshow from '../../components/Slideshow/Slideshow';
 
 function Logements() {
-    //useParams retourne un objet contenant les valeurs de id à partir des paramètres de l'URL.
-    //Ce qui permet par la suite de récupérer toutes les valeurs addociées à id de manière dynamique.
+    //Ici useParams retourne un objet contenant les valeurs de id à partir des paramètres de l'URL.
+    //Ce qui permet par la suite de récupérer toutes les valeurs associées à id de manière dynamique.
     const { id } = useParams();
 
     const filteredData = logementsDatas.filter(log => log.id === id);

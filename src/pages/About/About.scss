@@ -1,3 +1,4 @@
+
 .about{
     display: flex;
     flex-direction: column;
@@ -14,8 +15,8 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 50px;
-    gap: 25px;
+    margin-bottom: 45px;
+    gap: 40px;
 
     @media(max-width: 480px){
         margin-top: 18px;

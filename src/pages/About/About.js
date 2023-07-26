@@ -5,6 +5,7 @@ import ImgForAbout from "../../components/sets/ImgTopCard_2.png"
 import './About.scss'
 
 function About() {
+    //Le contenu inséré ici dans Collapse correspond à la props {children} de Collapse.js
     return(
         <div>
             <HeaderCard image={ImgForAbout} />            

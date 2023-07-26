@@ -8,7 +8,9 @@ const Collapse = ({ title, children }) => {
         setIsOpen(!isOpen);
     }
 
+    
     return (
+        //Collapse recoit les props title et children que l'on defini dans about
         <div className={`collapse ${isOpen ? "collapse-open" : ""}`}>
                 <h2 className="collapse_title"> {title} </h2>
                 <span onClick={stateToggle} className={`collapse_arrow ${isOpen ? "collapse_arrow-up" : "collapse_arrow-down"}`}></span>

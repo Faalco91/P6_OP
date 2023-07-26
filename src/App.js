@@ -11,7 +11,8 @@ import Error from './pages/Error/Error'
 function App() {
   return (
   <div className='App'>
-    <Banner />          
+    <Banner />      
+        
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
